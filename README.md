@@ -11,7 +11,7 @@ It supports multiple clients and multiple workers, coordinated by a central queu
 
 **What the Program Does**
 
-Clients submit text-based jobs to a queue
+* Clients submit text-based jobs to a queue
 Workers request jobs, process them, and report completion
 The queue tracks job states (waiting, in progress, done)
 Workers multicast processed output to a listener
